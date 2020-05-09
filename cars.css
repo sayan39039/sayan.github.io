@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(40deg,#ffffff, #d6d6d6)
+}
+
+.boxAlto{
+	position:absolute;
+	left:25%;
+	top:25%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 20px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxAlto:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+img{
+    height: 150px;
+    width: 300px;
+    float: left;
+}
+.CarName{
+    margin-bottom: 200px;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+.boxWag{
+	position:absolute;
+	left:68%;
+	top:25%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 0px 20px 0px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxWag:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxSwift{
+	position:absolute;
+	left:24.5%;
+	top:60%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 80px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxSwift:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxi10{
+	position:absolute;
+	left:68%;
+	top:60%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 0px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxi10:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxDzire{
+	position:absolute;
+	left:24.5%;
+	top:95%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 80px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxDzire:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxNano{
+	position:absolute;
+	left:68%;
+	top:95%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 0px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxNano:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxOmni{
+	position:absolute;
+	left:24.5%;
+	top:130%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 80px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxOmni:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxIndica{
+	position:absolute;
+	left:68%;
+	top:130%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 0px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxIndica:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxSantro{
+	position:absolute;
+	left:24.5%;
+	top:165%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 50px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxSantro:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxInnova{
+	position:absolute;
+	left:68%;
+	top:165%;
+	transform: translate(-50%,-50%);
+    background-color: rgba(0, 0, 0, 0.89);
+	border-radius:6px;
+	padding:20px 0px 20px 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-family: arial;
+}
+
+.boxInnova:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h1{
+    font-family: arial;
+    font-size: 35px;
+    padding-bottom: 5px;
+    text-decoration: underline;
+}
+
+

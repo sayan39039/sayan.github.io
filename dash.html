@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" type="text/css" href = "dash.css">
+    </head>
+    
+    <body>
+        <script>
+            function validateForm() {
+              var x = document.forms["myForm"]["fname"].value;
+              if (x == "") {
+                alert("Name must be filled out");
+                return false;
+              }
+            y = document.getElementById("name").value;
+              if (y == ("/^[A-Za-z]+$/")) {
+                alert("Enter a valid name");
+                return false;
+              }
+            
+            function validateName() {
+              z = document.getElementById("name").value;
+              if (z == ("/^[A-Za-z]+$/")) {
+                alert("Enter a valid name");
+                return false;
+              }
+            }
+            
+        </script>
+        <h1>
+            HELLO CUSTOMER<br><center><hr width="40%" align = "center"></center>
+            <span class="h1small">Rent Ride Enjoy</span>
+        </h1>
+        <div>
+            <img  class = "headimg" src = "bg1.png">
+        </div>
+        
+     <!--   <div class = form>
+            <form>
+                <fieldset>
+                    <legend>Details about Booking:</legend>
+                    Enter your name: <input type="text"><br><br>
+                    Phone No.: <input type="text"><br><br>
+                    Issue Date: <input type="date"><br><br>
+                    Return Date: <input type="date"><br><br>
+                </fieldset>
+            </form>
+        </div> -->
+        
+        <div class="box">
+            <form name="myForm" onsubmit="return validateForm()" method="post"   action = "cars.html">
+                <span class="text-center">Booking Details</span>
+                <div class="input-container">
+                    <input type="text" required="" id = "name" method="post"/>
+                    <label>Full Name</label>		
+                </div>
+                <div class="input-container" id = "number">		
+                    <input type="text" required=""/>
+                    <label>Phone Number</label>
+                </div>
+                <div class="input-container">
+                    <input type="date" required="" class = "dates"/>
+                    <label>Issue Date</label>		
+                </div>
+                <div class="input-container">
+                    <input type="date" required="" class = "dates"/>
+                    <label>Return Date</label>		
+                </div>
+                <a href = "cars.html">
+                    <button type="submit" class="btn" onsubmit="return validateName()">submit</button>
+                </a>
+            </form>	
+        </div>
+        
+    </body>
+</html>   
