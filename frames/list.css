@@ -1,0 +1,63 @@
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body{
+    background-color: #bde2f8;
+    background-image: linear-gradient(70deg, #2effde 60%, #68c4fa);
+    scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+.but{
+    background-color: #6ebde5;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: .1px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.but:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+
+a{
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9cffaf;
+}

@@ -1,0 +1,47 @@
+
+#bg {
+              position: fixed; 
+              top: 0; 
+              left: 0; 
+
+              /* Preserve aspet ratio */
+              width: 100%;
+              height: 100%;
+    opacity: .3;
+}
+p{
+    text-align: justify;
+    padding: 35px;
+    font-size: 18px;
+    font-family: monospace;
+}
+
+span{
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: -2px;
+}
+
+
+html {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 11px;
+}
+body{
+    /*background-color: #bde2f8;
+    background-image: linear-gradient(70deg, #2effde 60%, #68c4fa);*/
+    scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
